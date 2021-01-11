@@ -1,6 +1,7 @@
 # XML-to-JSON-with-php
 
 A project that takes an XML file and converts it to a JSON layout. The XML file used to deduce this code is also included in this repository. There are also several functions for XML validation that are applied when the code is run. My main focus was on the use of arrays throughout the program.
+
 Functions:
 
 **xmlstr_to_arr**:  Converts the string XML into an array with sections *<*x*>*,*<*/*x*>, <*x*>value, *<*x key=value*>* for use by later functions.
