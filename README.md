@@ -16,7 +16,7 @@ Functions:
 **Xmltojson**: Returns the XML string converted to a JSON string with an option to add spaces to make the final code more reader friendly. This iterates through the XML array and creates the JSON object dependent on conditions. For each iteration:
 - The number of spaces indented changes dependent on the open/close node /
 - First if statement tests if the array value is empty so can be skipped
-- First elseif : <x key=value>   =>   "x":{"key":"value",
+- First elseif : *<*x key=value*>*   =>   "x":{"key":"value",
 - Second elseif : </x>    =>   },
 - Third elseif : <x>value =>  "key":"value",
 - Else :  <x> => "x":{
