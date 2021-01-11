@@ -7,7 +7,7 @@ Functions:
  
 **If statement after echo**: Used to check if the user had entered a correct file name within the directory.
 
-**Keypair_test**:Checks to see if all start nodes,/<x/>, are paired to end nodes,*<*/*x*>
+**Keypair_test**:Checks to see if all start nodes,*<*x*>*, are paired to end nodes,*<*/*x*>
 
 **Bracket_check**: Check to see if each node is enclosed by start and end brackets in the correct order.
 
