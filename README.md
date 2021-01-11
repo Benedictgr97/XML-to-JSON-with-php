@@ -17,9 +17,9 @@ Functions:
 - The number of spaces indented changes dependent on the open/close node /
 - First if statement tests if the array value is empty so can be skipped
 - First elseif : *<*x key=value*>*   =>   "x":{"key":"value",
-- Second elseif : </x>    =>   },
-- Third elseif : <x>value =>  "key":"value",
-- Else :  <x> => "x":{
+- Second elseif : *<*/*x*>   =>   },
+- Third elseif : *<*x key=value*>* =>  "key":"value",
+- Else :  *<*x*>* => "x":{
 
 After the iterations the final “}” is added and Json echoed and returned as a string
 
