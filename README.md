@@ -1,9 +1,6 @@
 # XML-to-JSON-with-php
 
-A project that takes an XML file and converts it to a JSON layout. The XML file used to deduce this code is also included in this repository.
-
-I have created a PHP script that has the exercise XML structure included as a string or can take other XML files within the same directory. There are also several functions for XML validation that are applied when the code is run. My main focus was on the use of arrays throughout the program rather than object manipulation as I am still developing my skills within this area. 
-
+A project that takes an XML file and converts it to a JSON layout. The XML file used to deduce this code is also included in this repository. There are also several functions for XML validation that are applied when the code is run. My main focus was on the use of arrays throughout the program.
 Functions:
 xmlstr_to_arr:  Converts the string XML into an array with sections <x>,</x> <x>value, <x key=value> for use by later functions.
 If statement after echo: Used to check if the user had entered a correct file name within the directory.
