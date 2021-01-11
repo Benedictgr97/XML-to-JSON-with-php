@@ -22,5 +22,5 @@ Functions:
 - Third elseif : *<*x key=value*>* =>  "key":"value",
 - Else :  *<*x*>* => "x":{
 
-After the iterations the final “}” is added and Json echoed and returned as a string
+After the iterations the final “}” is added and Json echoed and returned as a string.
 
