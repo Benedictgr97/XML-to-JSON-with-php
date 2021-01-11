@@ -1,6 +1,6 @@
 # XML-to-JSON-with-php
 
-A project that takes an XML file and converts it to a JSON layout. The XML file used to deduce this code is also included in this repository. There are also several functions for XML validation that are applied when the code is run. My main focus was on the use of arrays throughout the program.
+A project that takes an XML file and converts it to a JSON layout. The XML file used to deduce this code is also included in this repository alongside being included at the start of the code to be used if no XML file is given. There are also several functions for XML validation that are applied when the code is run. My main focus was on the use of arrays throughout the program.
 
 Functions:
 
